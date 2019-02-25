@@ -1,0 +1,16 @@
+2018-12-01T22:14:08+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in E:\xampp\htdocs\wordpress\wp-content\plugins\ocean-extra\includes\widgets\custom-menu.php on line 9
+
+2018-12-01T22:25:21+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in E:\xampp\htdocs\wordpress\wp-content\plugins\ocean-extra\includes\menu-icons\includes\library\icon-selector\includes\types\genericon.php on line 6
+
+2018-12-01T22:26:01+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in E:\xampp\htdocs\wordpress\wp-includes\wp-db.php on line 1924
+
+2018-12-01T22:38:30+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in E:\xampp\htdocs\wordpress\wp-includes\pluggable-deprecated.php on line 18
+
+2018-12-01T22:38:39+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in E:\xampp\htdocs\wordpress\wp-content\plugins\jetpack\modules\verification-tools\verification-tools-utils.php on line 8
+
+2018-12-01T22:38:43+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in E:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\base\widget-base.php on line 4
+
+2018-12-01T22:42:33+00:00 CRITICAL Maximum execution time of 30 seconds exceeded w E:\xampp\htdocs\wordpress\wp-includes\Requests\Transport\cURL.php w linii 163
+
+2018-12-01T23:53:53+00:00 CRITICAL Maximum execution time of 30 seconds exceeded w E:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-taxonomies.php w linii 12
+

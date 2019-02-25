@@ -1,0 +1,4 @@
+2018-12-15T16:07:29+00:00 CRITICAL Maximum execution time of 30 seconds exceeded w E:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce-gateway-paypal-express-checkout\includes\class-wc-gateway-ppec-with-paypal.php w linii 3
+
+2018-12-15T16:07:29+00:00 CRITICAL Maximum execution time of 30 seconds exceeded w E:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce-gateway-paypal-express-checkout\includes\class-wc-gateway-ppec-with-spb-addons.php w linii 3
+

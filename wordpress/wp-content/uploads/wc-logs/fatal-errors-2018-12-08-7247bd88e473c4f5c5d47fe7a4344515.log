@@ -1,0 +1,4 @@
+2018-12-08T14:55:08+00:00 CRITICAL Maximum execution time of 30 seconds exceeded w E:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\role-manager\role-manager.php w linii 8
+
+2018-12-08T14:55:12+00:00 CRITICAL Maximum execution time of 30 seconds exceeded w E:\xampp\htdocs\wordpress\wp-includes\Requests\Transport\cURL.php w linii 163
+

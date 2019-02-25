@@ -1,0 +1,10 @@
+2018-12-09T10:29:28+00:00 CRITICAL Maximum execution time of 30 seconds exceeded w E:\xampp\htdocs\wordpress\wp-content\plugins\contact-form-7\modules\select.php w linii 8
+
+2018-12-09T10:29:30+00:00 CRITICAL Maximum execution time of 30 seconds exceeded w E:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce-gateway-paypal-express-checkout\includes\abstracts\abstract-wc-gateway-ppec.php w linii 3
+
+2018-12-09T15:10:12+00:00 CRITICAL Maximum execution time of 30 seconds exceeded w E:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\managers\wordpress-widgets.php w linii 4
+
+2018-12-09T19:50:35+00:00 CRITICAL Maximum execution time of 30 seconds exceeded w E:\xampp\htdocs\wordpress\wp-content\themes\shop-isle\inc\structure\header.php w linii 8
+
+2018-12-09T20:59:42+00:00 CRITICAL Maximum execution time of 30 seconds exceeded w E:\xampp\htdocs\wordpress\wp-content\plugins\elementor\modules\wp-cli\module.php w linii 6
+
