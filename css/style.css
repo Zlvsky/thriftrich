@@ -1,0 +1,252 @@
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Libre Franklin', sans-serif;
+  scroll-behavior: smooth;
+}
+#stopScroll {
+  overflow: none;
+}
+
+#container {
+  padding: 0;
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.homeImg {
+  top: 0;
+  background: rgba(0, 0, 0, 0.5);
+  background-image: url('images/tlos2.jpg');
+  background-image: url('images/tlos2.jpg'), linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, transparent 100%);
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 !important;
+  margin: 0 auto;
+
+}
+#scrolldown {
+  position: relative;
+  top: 89%;
+}
+#more {
+  position: relative;
+  width: 80px;
+  height: 120px;
+  margin-right: auto;
+  margin-left: auto;
+  top: 83%;
+}
+#img-scrolldown {
+  width: 60px;
+  height: 60px;
+  animation: float 6s ease-in-out infinite;
+}
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+
+  }
+  50% {
+
+		transform: translatey(-15px);
+	}
+	100% {
+
+		transform: translatey(0px);
+	}
+}
+/* NAVBAR */
+#navbar {
+  overflow: hidden;
+  color: black;
+  padding: 10px 10px;
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  height: 10%;
+  top: 0;
+  text-align: center;
+  font-size: 19px;
+  z-index: 100;
+}
+.ulist {
+  width: 100%;
+  height: 40%;
+  text-align: center;
+  display: inline;
+
+}
+.ulist li {
+  margin-left: 10%;
+  float: left;
+}
+#nav-wrap {
+margin-left: 28%;
+margin-top: 30px;
+transition: 0.4s;
+}
+#navbar a {
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  font-size:19px;
+  line-height: 25px;
+  border-radius: 4px;
+  color: white;
+}
+#logo {
+  font-size: 19px;
+  color: black;
+  transition: 0.4s;
+  display: inline;
+  float: left;
+  margin-left: -30%;
+}
+.list {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  cursor: pointer;
+}
+li {
+  color: white;
+  margin: 0 0 0 20px;
+  text-decoration: none;
+}
+a,a:active, a:before, a:hover, a:visited {
+  text-decoration: none;
+  transition: 0.4s;
+}
+#hyperlink1, #hyperlink2, #hyperlink3  {
+  transition: color 1s;
+  color: white;
+}
+@media screen and (max-width: 580px) {
+  #navbar {
+    padding: 8px 10px !important;
+  }
+  #navbar a,li {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+#title-hidden {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-family: 'Rajdhani', sans-serif
+}
+#title-wrap {
+  margin-top: auto;
+  margin-bottom: 20vw;
+  width: 640px;
+  height: 400px;
+  /* background-color: white; */
+  border-radius: 6px;
+  text-align: center;
+  padding: 20px;
+}
+.title {
+  font-size: 80px;
+}
+.center {
+  font-size: 70px;
+}
+.subTitle {
+  margin-bottom: 10%;
+  font-size: 65px;
+}
+.subText {
+  font-size: 20px;
+}
+
+.container-fluid{
+  background-color: #242424;
+  color: white;
+
+}
+#dark-text {
+  width: 35%;
+  padding: 5% 0 5% 10%;
+  text-align: center;
+  margin-right: 0 !important;
+  display: inline-block;
+
+}
+
+/* PHOTOS STACK */
+#bucior {
+  display: inline-block;
+  margin: 0 10% 0 10%;
+  width: 200px;
+  height: 50px;
+  transform: translateY(-250px);
+  border: 6px solid white;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  background-color: Transparent;
+  outline: none;
+  transition: all 0.5s ease-in-out;
+}
+#bucior:hover {
+  box-shadow: 7px 7px #121212;
+}
+#slider-wrap {
+  width: 400px;
+  height: 520px;
+  display: inline-block;
+  /* padding: 0 0% 5% 30%; */
+
+}
+.slider {
+  position: relative;
+  width: 400px;
+  height: 520px;
+}
+.slideImg {
+  width: 360px;
+  position: absolute;
+  height: 480px;
+  transition:1s ease-in-out;
+}
+.slider img:nth-child(1) {
+  transform: translate3d(40px, 20px, 10px);
+}
+.slider img:nth-child(2) {
+  transform: translate3d(0, -20px, 10px);
+}
+.slider img:nth-child(3) {
+  transform: translate3d(-45px, 5px, 15px);
+}
+/* czarna  */
+.slider img:nth-child(1):hover{
+  z-index: 10;
+  transform: scale(1.02)
+}
+/* neon */
+.slider img:nth-child(2):hover{
+  z-index: 10;
+  transform: scale(1.02)
+}
+/* warsaw */
+.slider img:nth-child(3):hover{
+  z-index: 10;
+  transform: scale(1.02)
+}
+/* END OF PHOTOS STACK */
