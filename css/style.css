@@ -104,6 +104,9 @@ h4 {
   color: white;
   font-size: 17px;
 }
+.upgrades {
+  background-color: rgb(0,0,0,0.7);
+}
 /* END UI FOR PC */
 }
 
@@ -136,6 +139,9 @@ h4 {
   }
   #info {
     display: none;
+  }
+  .upgrades {
+    background: #202020;
   }
 /* END FOR MOBILE */
 }
@@ -175,7 +181,7 @@ h4 {
   left: 0;
   top: 0;
   width: 100%;
-  background-color: rgb(0,0,0,0.7);
+
   transition: transform ease-in 0.7s;
   transform: translateY(100%);
 
