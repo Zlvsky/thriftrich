@@ -8,55 +8,55 @@
 }, {                                   // 1
   name: "boczne",
   price: 300,
-  jps: 3
+  jps: 2
 }, {                                   // 2
   name: "zapiekanka",
   price: 600,
-  jps: 5
+  jps: 3
 }, {                                   // 3
   name: "obuwie",
   price: 2000,
-  jps: 9
+  jps: 5
 }, {                                   // 4
   name: "mpk",
   price: 4000,
-  jps: 15
+  jps: 7
 }, {                                   // 5
   name: "szatnia",
   price: 7500,
-  jps: 20
+  jps: 12
 }, {                                   // 6
   name: "chemia",
   price: 10000,
-  jps: 25
+  jps: 15
 }, {                                   // 7
   name: "upomnienie",
   price: 20000,
-  jps: 35
+  jps: 19
 }, {                                   // 8
   name: "kino",
   price: 40000,
-  jps: 55
+  jps: 25
 }, {                                   // 9
   name: "erasmus",
   price: 120000,
-  jps: 90
+  jps: 50
 },  {                                   // 10
   name: "matura",
   price: 300000,
-  jps: 200
+  jps: 100
 }, {                                   // 11
   name: "disco",
   price: 800000,
-  jps: 350
+  jps: 160
 }, {                                   // 12
   name: "dyrektor",
   price: 3000000,
-  jps: 550
+  jps: 300
 }, {                                   // 13
   name: "walesa",
   price: 10000000,
-  jps: 1990
+  jps: 500
 }, {                                   // 14
   name: "miejska",
   price: 5000000,
